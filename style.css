@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+#resume-container {
+    width: 600px;
+    height: 707px;
+    padding: 20px;
+    margin: 50px;
+    background-color: #ffffff;
+    color: #333333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #e5e5e5;
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profilePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
